@@ -1,0 +1,66 @@
+#
+#░██████╗██╗░░░██╗██████╗░███████╗██████╗░██╗░█████╗░██████╗░███╗░░░███╗░██████╗░██████╗░
+#██╔════╝██║░░░██║██╔══██╗██╔════╝██╔══██╗██║██╔══██╗██╔══██╗████╗░████║██╔════╝██╔════╝░
+#╚█████╗░██║░░░██║██████╔╝█████╗░░██████╔╝██║██║░░██║██████╔╝██╔████╔██║╚█████╗░██║░░██╗░
+#░╚═══██╗██║░░░██║██╔═══╝░██╔══╝░░██╔══██╗██║██║░░██║██╔══██╗██║╚██╔╝██║░╚═══██╗██║░░╚██╗
+#██████╔╝╚██████╔╝██║░░░░░███████╗██║░░██║██║╚█████╔╝██║░░██║██║░╚═╝░██║██████╔╝╚██████╔╝
+#╚═════╝░░╚═════╝░╚═╝░░░░░╚══════╝╚═╝░░╚═╝╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═════╝░░╚═════╝░
+
+#This will enable chat formating. You can then set the format of the chat.
+ChatFormat: true
+#{player} and {message} are local variables. Placeholders, hex colors and normal colors are all supported.
+Format: "&8&l[&2&lMember&8&l] &a{player} &8&l» &r{message}"
+#This allows players with permission sm.chatcolor to use all color codes in chat and some emojis. Only certian
+#ones work. Examples :heart: :tick: :cross: :star: There is a full list on the wiki
+Color: true
+
+#Enable this if you want the plugin to modifiy the join message
+#If you want to disable a certain feature set it to false. Use the title and subtitle as an example
+JoinMSG: true
+#Use {p} for the players name. Placeholders, hex colors and color codes are all suported
+JoinMessage: "&e{p} joined the server"
+#This will show an action bar on join to the player that joins.
+JoinActionBar: "&eWelcome {p}"
+#Will display a title
+JoinTitle: false
+#Will display a subtitle. Only works if title is enabled
+JoinSubtitle: false
+
+#This is when the player first joins
+FirstJoinMSG: true
+#Frist Join Message
+FirstJoinMessage: "&8&l[&e&lWelcome&8&l] {p} joined the server for the first time!"
+#First Join Action Bar. Chabge to a string if you want it
+FirstJoinActionBar: false #"&2Enjoy your stay!"
+#First Join Title
+FirstJoinTitle: false
+#First Join Subtitle. Only works with title
+FirstJoinSubtitle: false
+
+#This is the leave message. This will only display to other players on the server because the player has left xD
+QuitMSG: true
+#The message is the only thing u can change. Use {p} for player
+QuitMessage: "&e{p} left the server"
+
+#If you want SuperiorMSG to take control of death messages
+DeathMSG: true
+#You can use {reason} for the normal death message. U can add onto this and change the colors
+#Use {player} if u want the player
+DeathMessage: "&c{reason}"
+
+#This is if this plugin should add private messages
+PrivateMSG: true
+#This is the format for the persons who sends the message. Use {sender} for the sender and {reciever} for the reciever
+#Use {message} for the message. !!{message} is required
+PMSend: "{sender} -> {reciever} >> {message}"
+##This is the format for the person recieving the message. Placeholders, hex colors and color codes all work.
+PMRecieve: "{reciever} -> {sender} >> {message}"
+
+#Put this true if you want the plugin to take over your broadcast command
+Broadcast: true
+BroadcastPrefix: "&8&l[&c&lBroadcast&8&l]"
+#These timings are in ticks. 20 ticks = 1 second
+TitleFadeIn: 1
+TitleDisplayTime: 20
+TitleFadeOut: 1
+LocalBroadcastRange: 100

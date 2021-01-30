@@ -1,0 +1,13 @@
+me\scalergames\SuperiorMSG\Main.class
+me\scalergames\SuperiorMSG\BroadcastLocal.class
+me\scalergames\SuperiorMSG\JoinEvent.class
+me\scalergames\SuperiorMSG\SMCommand.class
+me\scalergames\SuperiorMSG\Color.class
+me\scalergames\SuperiorMSG\Format.class
+me\scalergames\SuperiorMSG\BroadcastWorld.class
+me\scalergames\SuperiorMSG\QuitEvent.class
+me\scalergames\SuperiorMSG\PM.class
+me\scalergames\SuperiorMSG\SMTab.class
+me\scalergames\SuperiorMSG\DeathMessage.class
+me\scalergames\SuperiorMSG\Broadcast.class
+me\scalergames\SuperiorMSG\BroadcastTab.class

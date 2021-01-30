@@ -1,0 +1,18 @@
+main: me.scalergames.SuperiorMSG.Main
+name: SuperiorMsg
+version: 1.0.0
+author: ScalerGames
+description: A messaging plugin for minecraft. Take control of all messaging!
+softdepend: [PlaceholderAPI]
+loadbefore: [EssentialsX]
+commands:
+  sm:
+    aliases: [superiormsg, smessage]
+  msg:
+    aliases: [pm, privatemessage, message]
+  broadcast:
+    aliases: [announce]
+  broadcastworld:
+    aliases: [worldbroadcast, wb, bw]
+  localbroadcast:
+    aliases: [broadcastlocal, bl]
