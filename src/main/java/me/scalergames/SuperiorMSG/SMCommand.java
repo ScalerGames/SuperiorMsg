@@ -40,7 +40,7 @@ public class SMCommand implements CommandExecutor {
                         s.sendMessage(Color.format("&8&l&m======&3SuperiorMSG&8&l&m======" + "\n&9SuperiorMSG is a plugin"
                                 + " which replaces some of the default minecraft messages."
                                 + "\nThe Commands are /sm, /msg, /broadcast, /localbroadcast\n/broadcastworld"
-                                + " if you need help with the plugin please join the discord and check\n"
+                                + " if you need help with the plugin \nplease join the discord and check"
                                 + " the wiki for more info.").replace("\\n", "\n"));
                     }
 

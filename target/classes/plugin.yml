@@ -7,12 +7,7 @@ softdepend: [PlaceholderAPI]
 loadbefore: [EssentialsX]
 commands:
   sm:
-    aliases: [superiormsg, smessage]
   msg:
-    aliases: [pm, privatemessage, message]
   broadcast:
-    aliases: [announce]
   broadcastworld:
-    aliases: [worldbroadcast, wb, bw]
   localbroadcast:
-    aliases: [broadcastlocal, bl]

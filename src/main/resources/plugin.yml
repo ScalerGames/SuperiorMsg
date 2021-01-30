@@ -7,22 +7,7 @@ softdepend: [PlaceholderAPI]
 loadbefore: [EssentialsX]
 commands:
   sm:
-    description: The SuperiorMsg Command
-    usage: /<command>
-    aliases: [superiormsg, smessage]
   msg:
-    description: Private message command
-    usage: /<command>
-    aliases: [pm, privatemessage, message]
   broadcast:
-    description: Broadcast Command
-    usage: /<command>
-    aliases: [announce]
   broadcastworld:
-    description:  A broadcast world command
-    usage: /<command>
-    aliases: [worldbroadcast, wb, bw]
   localbroadcast:
-    description: A local ranged broadcast
-    usage: /<command>
-    aliases: [broadcastlocal, bl]
