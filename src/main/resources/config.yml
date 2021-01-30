@@ -60,7 +60,11 @@ PMRecieve: "{reciever} -> {sender} >> {message}"
 Broadcast: true
 BroadcastPrefix: "&8&l[&c&lBroadcast&8&l]"
 #These timings are in ticks. 20 ticks = 1 second
+#Title Fade in Time
 TitleFadeIn: 1
+#Title Display Time
 TitleDisplayTime: 20
+#Title Fade Out Time
 TitleFadeOut: 1
+#How many blocks the local broadcast should go
 LocalBroadcastRange: 100
